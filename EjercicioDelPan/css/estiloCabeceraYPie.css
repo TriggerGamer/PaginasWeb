@@ -1,0 +1,91 @@
+body{
+    background-color: #9C5500;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffff;
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #000000;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.subtitulo{
+    float: right;
+    color: #000000;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 4vw;
+
+}
+
+.imgIdioma img{
+    border-radius: 5em;
+    margin: 1vw;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.imgIdioma img:hover{
+    width: 3.2vw;
+    height: 3.2vw;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    width: 100%;
+    height: 5vw;
+    clear: both;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.tituloPie{
+    color: #000000;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-top: 1vw;
+    margin-left: 3vw;
+}
+
+.contenidoPie{
+    font-size: 1.5vw;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.ubicacion{
+    font-size: 1.5vw;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 4vw;
+    margin-top: 1vw;
+}
+
+.ubicacion a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.ubicacion a:hover{
+    color: blue;
+}

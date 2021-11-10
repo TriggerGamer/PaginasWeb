@@ -1,0 +1,29 @@
+main{
+    display: flex;   
+}
+
+.solovid{
+    justify-content: flex-end;
+    width: 50%;
+    margin: 2vw;
+}
+
+.solovid h2{
+    align-self: center;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    color: #ffff;
+    font-size: 2.5vw;
+}
+
+.solovid video {
+    /* override other styles to make it responsive */
+    margin-left: 4vw;
+    width: 90%   !important;
+    height: auto  !important;
+}
+
+.imgPortada{
+    margin: 2vw;
+    width: 40%;
+}
