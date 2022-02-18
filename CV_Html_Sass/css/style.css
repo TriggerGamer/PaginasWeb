@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*
+Web desarrollada por Erick Jaquez
+*/
+/*
+Fuente para dislexicos
+*/
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("../fonts/OpenDyslexic-Regular.otf") format("opentype");
+}
+/*
+Body Style
+*/
+body {
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Arial";
+  font-size: 1rem;
+}
+
+/*
+Maquetación de la página
+*/
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar_wrapper {
+  background-color: red;
+  float: left;
+  color: #fff;
+}
+.sidebar_wrapper img {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.main_wrapper {
+  background: #fff;
+}
+
+/*
+Clases y ids importantes para la página
+*/
+.contactos {
+  background-color: #c78319;
+  color: #fff;
+  list-style-type: none;
+  padding: 0.5vw;
+  padding-top: 1vw;
+}
+.contactos li {
+  margin-bottom: 2vw;
+  text-align: center;
+  font-size: 0.9em;
+}
+.contactos li a {
+  text-decoration: none;
+  color: #fff;
+}
+.contactos li a:hover {
+  color: #00f;
+}
+
+.idiomas {
+  vertical-align: center;
+  background-color: #00a7ec;
+  list-style-type: none;
+  padding: 0.5vw;
+  padding-top: 1vw;
+  text-align: center;
+}
+.idiomas li {
+  margin-bottom: 2vw;
+}
+
+.intereses {
+  background-color: #7204f4;
+  color: #fff;
+  list-style-type: none;
+  padding: 0.5vw;
+  padding-top: 1vw;
+}
+.intereses li {
+  margin-bottom: 2vw;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.lateral {
+  font-weight: bold;
+  font-size: 2vw !important;
+}
+
+.nombre {
+  color: #000;
+  background-color: #FFC349;
+  padding-bottom: 0.5vw;
+  padding-top: 1vw;
+  text-align: center;
+}
+
+.noredondoP {
+  margin-left: 2vw;
+}
+
+.noredondoP2 {
+  padding-left: 4vw;
+}
+
+.redondoH {
+  color: #fff;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 40%;
+  height: 20%;
+  border-radius: 10vw;
+  background-color: #7204f4;
+  text-align: center;
+  clear: both;
+}
+.redondoH h3 {
+  padding: 0.9vw;
+}
+
+.centro {
+  text-align: center;
+}
+
+.fechas {
+  border-right: 1px #000 solid;
+  float: left;
+  margin-right: 2vw;
+  padding-right: 2vw;
+}
+
+.fuentes {
+  clear: both;
+  text-align: center;
+  margin-top: 12vw;
+}
+.fuentes button {
+  color: #000;
+  border-color: #f47c3c;
+  background-color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+.fuentes button:hover {
+  color: #fff;
+  background-color: #f47c3c;
+  border-color: #f47c3c;
+}
+
+/*# sourceMappingURL=style.css.map */

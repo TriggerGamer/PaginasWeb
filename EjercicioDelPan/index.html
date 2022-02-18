@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-    
-    <head> 
 
-        <meta charset="utf-8">
-        <meta name="author" content="Erick Jose Jaquez Encarnacion">
-        <meta name="description" content="Página para panaderia visual sobretodo">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="author" content="Erick Jose Jaquez Encarnacion">
+    <meta name="description" content="Página para panaderia visual sobretodo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" href="css/resetcss.css">
-        <link rel="stylesheet" type="text/css" href="css/estiloCabeceraYPie.css">
-        <link rel="stylesheet" type="text/css" href="css/estiloMenu.css">
-        <link rel="stylesheet" type="text/css" href="css/estilosDelPanInicio.css">    
-        <link rel="shortcut icon" type="img/png" href="img/favicon/logopan.png"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-        <title> Ejercicio del Pan </title>
+    <link rel="stylesheet" type="text/css" href="css/resetcss.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloCabeceraYPie.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloMenu.css">
+    <link rel="stylesheet" type="text/css" href="css/estilosDelPanInicio.css">
+    <link rel="shortcut icon" type="img/png" href="img/favicon/logopan.png" />
 
-    </head>
+    <title> Ejercicio del Pan </title>
 
-    <body>
+</head>
 
-        <header>
+<body class="container">
+
+    <header class="row">
+
+        <nav class="menu">
+            <div class="menubtn"> Menu </div>
+            <div class="menu-content">
+                <a class="actual" href="index.html"> Início </a>
+                <a href="html/Panaderia.html"> Panadería </a>
+                <a href="html/Pasteleria.html"> Pastelería </a>
+                <a href="html/Empanadas.html"> Empanadas </a>
+            </div>
+        </nav>
+
+        <h1 class="titulo"> Migas Amigas </h1>
+
+        <h3 class="subtitulo"> Fabricando pan desde 1940 </h3>
+
+        <div class="imgIdioma">
+            <img class="img-fluid" src="img/banderas/España.jpg" alt="Bandera de España para indicar el idioma">
+            <img class="img-fluid" src="img/banderas/Portugal.jpg" alt="Bandera de Portugal para indicar el idioma">
+        </div>
+
+        <!-- 
 
             <nav class="menu">
                 <div class="menubtn"> Menu </div>
@@ -42,35 +64,40 @@
             <div class="imgIdioma">
                 <img src="img/banderas/España.jpg" alt="Bandera de España para indicar el idioma">
                 <img src="img/banderas/Portugal.jpg" alt="Bandera de Portugal para indicar el idioma">
-             </div>
+            </div> 
 
-        </header>
+        -->
 
-        <main>
-            
-            <img class="imgPortada" src="img/cabecera/31_PAN-AL-AGUA-HEAD.png" alt="Foto de un pan al agua">
-        
-            <section class="solovid">
+    </header>
 
-                <h2> Video animado de como se elabora el pan </h2>
+    <main class="row">
 
-		        <video controls preload="auto"> 
-			        <source src="video/DE_DONDE_VIENE_EL_PAN.mp4" type="video/mp4">
-		        </video> 
+        <img class="imgPortada img-fluid" src="img/cabecera/31_PAN-AL-AGUA-HEAD.png" alt="Foto de un pan al agua">
 
-            </section>
+        <section class="solovid">
 
-        </main>
+            <h2> Video animado de como se elabora el pan </h2>
 
-        <footer>
+            <video controls preload="auto">
+                <source src="video/DE_DONDE_VIENE_EL_PAN.mp4" type="video/mp4">
+            </video>
 
-            <h2 class="tituloPie"> Contacto:  </h2>
+        </section>
+
+    </main>
+
+    <footer class="row">
+        <div class="col-6 w-100">
+            <h2 class="tituloPie"> Contacto: </h2>
             <p class="contenidoPie"> Dirrecion: <br> C. Ordóñez, 30, 36700 Tuy, Pontevedra </p>
             <p class="contenidoPie"> Teléfono: <br> +34 123 456 789 </p>
-            <p class="ubicacion"> Ubicación <br> <a href="https://www.google.com/maps/place/C.+Ord%C3%B3%C3%B1ez,+30,+36700+Tuy,+Pontevedra/@42.0468032,-8.6478924,17z/data=!3m1!4b1!4m5!3m4!1s0xd259a96460062e1:0x7ad49c4961f11d64!8m2!3d42.0468032!4d-8.6457037"> Pinche aqui </a> </p>
+            <p class="ubicacion"> Ubicación <br> <a
+                href="https://www.google.com/maps/place/C.+Ord%C3%B3%C3%B1ez,+30,+36700+Tuy,+Pontevedra/@42.0468032,-8.6478924,17z/data=!3m1!4b1!4m5!3m4!1s0xd259a96460062e1:0x7ad49c4961f11d64!8m2!3d42.0468032!4d-8.6457037">
+                Pinche aqui </a>
+            </p>
+        </div>
+    </footer>
 
-        </footer>
-
-    </body>
+</body>
 
 </html>

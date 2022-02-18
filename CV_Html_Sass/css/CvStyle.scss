@@ -1,0 +1,202 @@
+// Comentario para el autor del css
+$Autor: "Erick Jaquez";
+
+/*
+Web desarrollada por #{$Autor}
+*/
+
+/*
+Fuente para dislexicos
+*/
+
+@font-face{
+    font-family: "OpenDyslexic";
+    src: url("../fonts/OpenDyslexic-Regular.otf") format('opentype');
+}
+
+$font-family: "Arial";
+$font-size: 1rem;
+
+//Variables de colores
+
+//backgorunds
+$background-primary: #fff;
+$background-secondary: red;
+$background-tertiary: #c78319;
+$background-idiomas: #00a7ec;
+$background-intereses: #7204f4;
+$background-black: #000;
+$background-nombre: #FFC349;
+$background-boton: #f47c3c;
+
+// text colors
+$color-primary: #fff;
+$color-secondary: #000;
+$color-tertiary: #dce5f1;
+
+//Otras variables utiles
+$normal-vw: 2vw;
+$centrado: center;
+$nada: none;
+
+//link colors
+$link-hoover: #00f;
+
+/*
+Body Style
+*/
+
+body {
+    background-color: $background-primary;
+    -webkit-font-smoothing: antialiased;
+    font-family: $font-family;
+    font-size: $font-size;
+}
+
+/*
+Maquetación de la página
+*/
+
+// Contenedor entero
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: $centrado;
+}
+
+// Clase lateral englobante
+.sidebar_wrapper{
+    background-color: $background-secondary;
+    float: left;
+    color: $color-primary;
+    img{
+        padding-top: $normal-vw - 1;
+        padding-left: $normal-vw - 1;
+        padding-right: $normal-vw - 1;
+    }
+}
+
+// Clase central
+.main_wrapper{
+    background: $background-primary;
+}
+
+/*
+Clases y ids importantes para la página
+*/
+
+// Clase contactos de en la parte lateral
+.contactos{
+    background-color: $background-tertiary;
+    color: $color-primary;
+    list-style-type: $nada;
+    padding: 0.5vw;
+    padding-top: $normal-vw - 1;
+    li{
+        margin-bottom: $normal-vw;
+        text-align: $centrado;
+        font-size: 0.9em;
+        a{
+            text-decoration: $nada;
+            color: $color-primary;
+            &:hover{
+                color: $link-hoover;
+            }
+        }
+    }
+}
+
+// Clase idiomas de la parte lateral
+.idiomas{
+    vertical-align: $centrado;
+    background-color: $background-idiomas;
+    list-style-type: $nada;
+    padding: 0.5vw;
+    padding-top: $normal-vw - 1;
+    text-align: $centrado;
+    li{
+        margin-bottom: $normal-vw;
+    }
+}
+
+.intereses{
+    background-color: $background-intereses;
+    color: $color-primary;
+    list-style-type: $nada;
+    padding: 0.5vw;
+    padding-top: $normal-vw - 1;
+    li{
+        margin-bottom: $normal-vw;
+        text-align: $centrado;
+        font-size: 0.9em;
+    }
+}
+
+.lateral{
+    font-weight: bold;
+    font-size: $normal-vw !important;
+}
+
+// Clase nombre de la parte de arriba de la paágina en el contenedor principal
+.nombre {
+    color: $color-secondary;
+    background-color: $background-nombre;
+    padding-bottom: 0.5vw;
+    padding-top: 1vw;
+    text-align: $centrado;
+}
+
+.noredondoP{
+   margin-left: $normal-vw;
+}
+
+.noredondoP2{
+    padding-left: $normal-vw + 2;
+}
+
+.redondoH {
+    color: $color-primary;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 40%;
+    height: 20%;
+    border-radius: 10vw;
+    background-color: $background-intereses;
+    text-align: $centrado;
+    clear: both;
+    h3{
+        padding: 0.9vw
+    }
+}
+
+.centro{
+    text-align: $centrado;
+    //height: 100%;
+}
+
+.fechas{
+    border-right: 1px $color-secondary solid;
+    float: left;
+    margin-right: $normal-vw;
+    padding-right: $normal-vw;
+ 
+}
+
+.fuentes{
+    clear: both;
+    text-align: $centrado;
+    margin-top: $normal-vw + 10;
+    button{
+        color: $color-secondary;
+        border-color: $background-boton;
+        background-color: $background-primary;
+        text-decoration: $nada;
+        display: inline-block;
+        &:hover{
+            color: $color-primary;
+            background-color: $background-boton;
+            border-color: $background-boton;
+        }
+    }
+}
