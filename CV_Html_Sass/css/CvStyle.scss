@@ -16,6 +16,7 @@ Fuente para dislexicos
 
 $font-family: "Arial";
 $font-size: 1rem;
+$font-weight: bold;
 
 //Variables de colores
 
@@ -86,6 +87,12 @@ Maquetación de la página
 Clases y ids importantes para la página
 */
 
+// Clase de la parte lateral que lo engloba todo
+.lateral{
+    font-weight: $font-weight;
+    font-size: $normal-vw !important;
+}
+
 // Clase contactos de en la parte lateral
 .contactos{
     background-color: $background-tertiary;
@@ -120,6 +127,7 @@ Clases y ids importantes para la página
     }
 }
 
+// Clase intereses de la parte lateral
 .intereses{
     background-color: $background-intereses;
     color: $color-primary;
@@ -131,11 +139,6 @@ Clases y ids importantes para la página
         text-align: $centrado;
         font-size: 0.9em;
     }
-}
-
-.lateral{
-    font-weight: bold;
-    font-size: $normal-vw !important;
 }
 
 // Clase nombre de la parte de arriba de la paágina en el contenedor principal
