@@ -5,6 +5,7 @@ $Autor: "Erick Jaquez";
 Web desarrollada por #{$Autor}
 */
 
+
 /*
 Fuente para dislexicos
 */
@@ -42,6 +43,7 @@ $nada: none;
 
 //link colors
 $link-hoover: #00f;
+
 
 /*
 Body Style
@@ -141,7 +143,7 @@ Clases y ids importantes para la página
     }
 }
 
-// Clase nombre de la parte de arriba de la paágina en el contenedor principal
+// Clase nombre de la parte de arriba de la página en el contenedor principal
 .nombre {
     color: $color-secondary;
     background-color: $background-nombre;
@@ -149,6 +151,10 @@ Clases y ids importantes para la página
     padding-top: 1vw;
     text-align: $centrado;
 }
+
+/*
+Clases de los elementos del centro de la página
+*/
 
 .noredondoP{
    margin-left: $normal-vw;
@@ -175,7 +181,6 @@ Clases y ids importantes para la página
 
 .centro{
     text-align: $centrado;
-    //height: 100%;
 }
 
 .fechas{
@@ -185,6 +190,10 @@ Clases y ids importantes para la página
     padding-right: $normal-vw;
  
 }
+
+/*
+Clases los botones al final de documento
+*/
 
 .fuentes{
     clear: both;
@@ -202,4 +211,10 @@ Clases y ids importantes para la página
             border-color: $background-boton;
         }
     }
+}
+
+// Clase especial que me gusta
+#grafic{
+    text-align: $centrado;
+    margin-top: $normal-vw;
 }
